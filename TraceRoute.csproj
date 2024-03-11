@@ -50,14 +50,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ChooseIPForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ChooseIPForm.Designer.cs">
+      <DependentUpon>ChooseIPForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTraceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPTraceForm.Designer.cs">
+      <DependentUpon>IPTraceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChooseIPForm.resx">
+      <DependentUpon>ChooseIPForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTraceForm.resx">
+      <DependentUpon>IPTraceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
