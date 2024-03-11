@@ -36,7 +36,7 @@
          // ButtonSelect
          // 
          this.ButtonSelect.DialogResult = System.Windows.Forms.DialogResult.OK;
-         this.ButtonSelect.Location = new System.Drawing.Point(275, 189);
+         this.ButtonSelect.Location = new System.Drawing.Point(275, 185);
          this.ButtonSelect.Name = "ButtonSelect";
          this.ButtonSelect.Size = new System.Drawing.Size(75, 23);
          this.ButtonSelect.TabIndex = 8;
@@ -47,7 +47,7 @@
          // ListBoxIpAdresses
          // 
          this.ListBoxIpAdresses.FormattingEnabled = true;
-         this.ListBoxIpAdresses.Location = new System.Drawing.Point(12, 49);
+         this.ListBoxIpAdresses.Location = new System.Drawing.Point(12, 45);
          this.ListBoxIpAdresses.Name = "ListBoxIpAdresses";
          this.ListBoxIpAdresses.Size = new System.Drawing.Size(338, 134);
          this.ListBoxIpAdresses.TabIndex = 7;
@@ -55,7 +55,7 @@
          // 
          // LabelSelect
          // 
-         this.LabelSelect.Location = new System.Drawing.Point(9, 13);
+         this.LabelSelect.Location = new System.Drawing.Point(9, 9);
          this.LabelSelect.Name = "LabelSelect";
          this.LabelSelect.Size = new System.Drawing.Size(341, 33);
          this.LabelSelect.TabIndex = 6;
@@ -67,7 +67,7 @@
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(374, 231);
+         this.ClientSize = new System.Drawing.Size(362, 214);
          this.Controls.Add(this.ButtonSelect);
          this.Controls.Add(this.ListBoxIpAdresses);
          this.Controls.Add(this.LabelSelect);
